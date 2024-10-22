@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.main{
+    width:1440px;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+}
+/* Grey 700: hsl(0, 0%, 20%) */
+
+.form{
+    width:350px;
+    height: 500px;
+    border-radius: 10px;
+    background-color:  hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img{
+    background-image: url('./assets/images/avatar-jessica.jpeg');
+    height: 60px;
+    width:50px;
+    margin-top: 20px;
+    background-size: cover;
+    border-radius: 50%;
+}
+.name{
+    color:white;
+    padding-top: 20px;
+}
+.address{
+    color:hsl(75, 94%, 57%);
+    padding-top: 15px;
+}
+.title{
+    color:rgba(255, 255, 255, 0.977);
+    padding-top: 30px;
+}
+.box{
+    height: 400px;
+    width:200px;
+    color:whitesmoke;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.boxx{
+    height:30px;
+    width:250px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color:hsl(0, 0%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxx:hover{
+    background-color: greenyellow;
+    color:rgb(215, 213, 213);
+}
+a{
+    text-decoration: none;
+    color:rgb(215, 213, 213);
+}
+
